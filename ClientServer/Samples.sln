@@ -1,0 +1,149 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebDesignerSL", "WebDesignerSL\", "{C9996ADB-D79E-4540-90BA-5F812EA431C9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebDesignerSL"
+		Debug.AspNetCompiler.PhysicalPath = "WebDesignerSL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebDesignerSL"
+		Release.AspNetCompiler.PhysicalPath = "WebDesignerSL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8917"
+		SlnRelativePath = "WebDesignerSL\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebDesignerSL_Localization", "WebDesignerSL_Localization\", "{3553AB75-12B9-4934-B7E7-F8EFBB2D8D24}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebDesignerSL_Localization"
+		Debug.AspNetCompiler.PhysicalPath = "WebDesignerSL_Localization\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL_Localization\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebDesignerSL_Localization"
+		Release.AspNetCompiler.PhysicalPath = "WebDesignerSL_Localization\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL_Localization\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8919"
+		SlnRelativePath = "WebDesignerSL_Localization\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebDesignerSL_SaveLoad", "WebDesignerSL_SaveLoad\", "{C520652B-7ECF-4B15-93B7-4F45F1171B73}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebDesignerSL_SaveLoad"
+		Debug.AspNetCompiler.PhysicalPath = "WebDesignerSL_SaveLoad\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL_SaveLoad\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebDesignerSL_SaveLoad"
+		Release.AspNetCompiler.PhysicalPath = "WebDesignerSL_SaveLoad\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebDesignerSL_SaveLoad\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61805"
+		SlnRelativePath = "WebDesignerSL_SaveLoad\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebViewerSL", "WebViewerSL\", "{6014251E-438B-404A-A830-9FF8A64F7C10}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebViewerSL"
+		Debug.AspNetCompiler.PhysicalPath = "WebViewerSL\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebViewerSL\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebViewerSL"
+		Release.AspNetCompiler.PhysicalPath = "WebViewerSL\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebViewerSL\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "8923"
+		SlnRelativePath = "WebViewerSL\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebViewerSL_Localization", "WebViewerSL_Localization\", "{53812013-6862-4053-967A-411C8E1112C5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebViewerSL_Localization"
+		Debug.AspNetCompiler.PhysicalPath = "WebViewerSL_Localization\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebViewerSL_Localization\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebViewerSL_Localization"
+		Release.AspNetCompiler.PhysicalPath = "WebViewerSL_Localization\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebViewerSL_Localization\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61809"
+		SlnRelativePath = "WebViewerSL_Localization\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSLDemo", "WebSLDemo\", "{42A8724B-F9F0-4334-9BC3-C060679F17D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/WebSLDemo"
+		Debug.AspNetCompiler.PhysicalPath = "WebSLDemo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSLDemo\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSLDemo"
+		Release.AspNetCompiler.PhysicalPath = "WebSLDemo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSLDemo\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61812"
+		SlnRelativePath = "WebSLDemo\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9996ADB-D79E-4540-90BA-5F812EA431C9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3553AB75-12B9-4934-B7E7-F8EFBB2D8D24}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{C520652B-7ECF-4B15-93B7-4F45F1171B73}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{6014251E-438B-404A-A830-9FF8A64F7C10}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{53812013-6862-4053-967A-411C8E1112C5}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{42A8724B-F9F0-4334-9BC3-C060679F17D2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

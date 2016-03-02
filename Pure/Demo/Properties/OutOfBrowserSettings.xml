@@ -1,0 +1,15 @@
+<OutOfBrowserSettings ShortName="Demo.SL Application" EnableGPUAcceleration="True" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>Demo.SL Application on your desktop; at home, at work or on the go.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="Demo.SL Application" Height="900" Width="1400" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.SecuritySettings>
+    <SecuritySettings ElevatedPermissions="Required" />
+  </OutOfBrowserSettings.SecuritySettings>
+  <OutOfBrowserSettings.Icons>
+    <Icon Size="16,16">Images/Demo16.png</Icon>
+    <Icon Size="32,32">Images/Demo32.png</Icon>
+    <Icon Size="48,48">Images/Demo48.png</Icon>
+    <Icon Size="128,128">Images/Demo128.png</Icon>
+  </OutOfBrowserSettings.Icons>
+</OutOfBrowserSettings>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Reports>
+  <Category name="Reports" description="Reports demonstration.">
+    <Report name="Simple List" file="SimpleList">The sample demonstrates how to create a simple list report.</Report>
+    <Report name="Simple List with Empty Lines" file="SimpleListWithEmptyLines">This sample demonstrates how to create a simple list report with empty lines on the bottom of a page.</Report>
+    <Report name="Side-by-Side Lists" file="SideBySideListWithContainers">This sample demonstrates how to create a report that contains two side by side lists with containers.</Report>
+    <Report name="Two Simple Lists" file="TwoSimpleLists">The sample demonstrates how to create two simple list reports.</Report>
+    <Report name="Invoice" file="Invoice">A simple invoice.</Report>
+    <Report name="Shapes" file="Shapes">The sample demonstrates how to create a report with shapes.</Report>
+    <Report name="BarCodes" asp="false" file="BarCodes">The sample demonstrates how to create a report with BarCodes.</Report>
+  </Category>
+  <Category name="Reports with Columns" description="Reports with columns demonstration.">
+    <Report name="Multi-Column List" file="MultiColumnList">The sample demonstrates how to create a report with multiple columns. To create a report with columns set the Columns property of a page in two or more.</Report>
+    <Report name="Multi-Column Bands, Across-Down" file="MultiColumnBandsAcrossThenDown">This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - across then down.</Report>
+    <Report name="Multi-Column Bands, Down-Across" file="MultiColumnBandsDownThenAcross">This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - down then across.</Report>
+    <Report name="Labels" file="Labels">The sample demonstrates how to create a report with labels.</Report>
+  </Category>
+  <Category name="Reports with Groups" description="Reports with columns demonstration.">
+    <Report name="Simple Group" file="SimpleGroup">The sample demonstrates how to create a simple group report with one group.</Report>
+    <Report name="Multi-Column Group" file="MultiColumnGroup">This sample demonstrates how to create a simple group report with two columns on a page.</Report>
+    <Report name="Groups with Ranges" file="GroupsWithRanges">This sample demonstrates how to create groups with ranges in a report.</Report>
+    <Report name="Simple Group with Columns" file="SimpleGroupWithColumns">This sample demonstrates how to create a simple group report with multiple columns on the bands. Multicolumn direction - across then down.</Report>
+  </Category>
+  <Category name="Charts" description="Reports with Charts.">
+    <Report name="Areas" file="ChartAreas">This sample demonstrates Areas chart types.</Report>
+    <Report name="Columns and Bars" file="ChartColumnsAndBars">This sample demonstrates Column and Bar chart types.</Report>
+    <Report name="Lines and Splines" file="ChartLinesAndSplines">This sample demonstrates Line and Spline chart types.</Report>
+    <Report name="Pie and Doughnut" file="ChartPieAndDoughnut">This sample demonstrates Pie and Doughnut chart types.</Report>
+    <Report name="Chart Styles" file="ChartStyles">This sample demonstrates different chart styles.</Report>
+  </Category>
+</Reports>

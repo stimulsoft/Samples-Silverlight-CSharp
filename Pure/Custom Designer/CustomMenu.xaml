@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="CustomDesigner.CustomMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:slControl="clr-namespace:Stimulsoft.Controls.SL;assembly=Stimulsoft.Controls.SL"
+    mc:Ignorable="d" d:DesignHeight="100" d:DesignWidth="500">
+    <Grid>
+        <StackPanel>
+            <Border BorderBrush="DimGray" BorderThickness="1" CornerRadius="3" Margin="2" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" Margin="1">
+                    <slControl:StiButton Name="btReportNew" Width="22" Height="22" Click="btReportNew_Click">
+                        <Image Source="/CustomDesigner;component/Images/ReportNew.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btReportOpen" Width="22" Height="22" Click="btReportOpen_Click">
+                        <Image Source="/CustomDesigner;component/Images/ReportOpen.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btReportSave" Width="22" Height="22" Click="btReportSave_Click">
+                        <Image Source="/CustomDesigner;component/Images/ReportSave.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btPageNew" Width="22" Height="22" Margin="4,0,0,0" Click="btPageNew_Click">
+                        <Image Source="/CustomDesigner;component/Images/PageNew.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btPageDelete" Width="22" Height="22" Click="btPageDelete_Click">
+                        <Image Source="/CustomDesigner;component/Images/PageDelete.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btPageSize" Width="22" Height="22" Click="btPageSize_Click">
+                        <Image Source="/CustomDesigner;component/Images/PageSize.png" Width="16" Height="16"/>
+                    </slControl:StiButton>
+                    <slControl:StiButton Name="btClose" Content="Close" MinWidth="75" Height="22" Margin="4,0,1,0" Click="btClose_Click"/>
+                </StackPanel>
+            </Border>
+            <Border BorderBrush="DimGray" BorderThickness="1" CornerRadius="3" Margin="2,1,2,2" HorizontalAlignment="Left">
+                <StackPanel Orientation="Horizontal" Margin="1">
+                    <slControl:StiToggleButton Name="btFontBold" Width="22" Height="22" Click="btFontBold_Click">
+                        <Image Source="/CustomDesigner;component/Images/FontStyleBold.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btFontItalic" Width="22" Height="22" Click="btFontItalic_Click">
+                        <Image Source="/CustomDesigner;component/Images/FontStyleItalic.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btFontUnderline" Width="22" Height="22" Click="btFontUnderline_Click">
+                        <Image Source="/CustomDesigner;component/Images/FontStyleUnderline.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+
+                    <slControl:StiToggleButton Name="btContentAlignLeft" Width="22" Height="22" Margin="4,0,0,0" Click="btContentAlignLeft_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignLeft.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btContentAlignCenter" Width="22" Height="22" Click="btContentAlignCenter_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignCenter.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btContentAlignRight" Width="22" Height="22" Click="btContentAlignRight_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignRight.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btContentAlignWidth" Width="22" Height="22" Click="btContentAlignWidth_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignWidth.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+
+                    <slControl:StiToggleButton Name="btContentAlignTop" Width="22" Height="22" Margin="4,0,0,0" Click="btContentAlignTop_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignTop.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btContentAlignMiddle" Width="22" Height="22" Click="btContentAlignMiddle_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignMiddle.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                    <slControl:StiToggleButton Name="btContentAlignBottom" Width="22" Height="22" Click="btContentAlignBottom_Click">
+                        <Image Source="/CustomDesigner;component/Images/ContentAlignBottom.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+
+                    <slControl:StiToggleButton Name="btWordWrap" Width="22" Height="22" Margin="4,0,1,0" Click="btWordWrap_Click">
+                        <Image Source="/CustomDesigner;component/Images/WordWrap.png" Width="16" Height="16"/>
+                    </slControl:StiToggleButton>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</UserControl>
+    

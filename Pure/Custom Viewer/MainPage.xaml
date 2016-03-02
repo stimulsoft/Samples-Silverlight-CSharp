@@ -1,0 +1,97 @@
+﻿<UserControl x:Class="CustomViewer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:slControls="clr-namespace:Stimulsoft.Controls.SL;assembly=Stimulsoft.Controls.SL"
+    xmlns:viewer="clr-namespace:Stimulsoft.Report.Viewer;assembly=Stimulsoft.Report.Viewer.SL"
+    mc:Ignorable="d" d:DesignWidth="741" d:DesignHeight="706" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <slControls:GroupBox Header="Settings" Margin="4">
+                <StackPanel Margin="1,3,1,1">
+                    <slControls:StiCheckBox Name="cbBookmarks" CheckedChanged="cbBookmarks_CheckedUnChecked">Bookmarks</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbToolbar" CheckedChanged="cbToolbar_CheckedUnchecked">ToolBar</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbStatusBar" CheckedChanged="cbStatusBar_CheckedUnchecked">Status Bar</slControls:StiCheckBox>
+
+                    <slControls:StiCheckBox Name="cbPrint" Margin="0,10,0,0" CheckedChanged="cbPrint_CheckedUnchecked">Print</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbOpen" CheckedChanged="cbOpen_CheckedUnchecked">Open</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbSave" CheckedChanged="cbSave_CheckedUnchecked">Save</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbPageNew" CheckedChanged="cbPageNew_CheckedUnchecked">Page New</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbPageDelete" CheckedChanged="cbPageDelete_CheckedUnchecked">Page Delete</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbPageSize" CheckedChanged="cbPageSize_CheckedUnchecked">Page Size</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbBookmarksButton" CheckedChanged="cbBookmarksButton_CheckedUnchecked">Bookmarks Button</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbFind" CheckedChanged="cbFind_CheckedUnchecked">Find</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbToolEditor" CheckedChanged="cbToolEditor_CheckedUnchecked">Tool Editor</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbToolFind" CheckedChanged="cbToolFind_CheckedUnchecked">Tool Find</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbFullScreen" CheckedChanged="cbFullScreen_CheckedUnchecked">Full Screen</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbZoomOnePage" CheckedChanged="cbZoomOnePage_CheckedUnchecked">Zoom One Page</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbZoomTwoPages" CheckedChanged="cbZoomTwoPages_CheckedUnchecked">Zoom Two Pages</slControls:StiCheckBox>
+                    <slControls:StiCheckBox Name="cbZoomPageWidth" CheckedChanged="cbZoomPageWidth_CheckedUnchecked">Zoom Page Width</slControls:StiCheckBox>
+                </StackPanel>
+            </slControls:GroupBox>
+            <slControls:GroupBox Header="Zoom" Margin="4">
+                <StackPanel Margin="1,3,1,1">
+                    <slControls:StiButton Name="tbOnePage" Margin="2" Click="tbOnePage_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/OnePage.png"/>
+                            <TextBlock Margin="8,0,0,0">Open Page</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbTwoPages" Margin="2" Click="tbTwoPages_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/TwoPages.png"/>
+                            <TextBlock Margin="8,0,0,0">Two Pages</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbNormal" Margin="2" Click="tbNormal_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PageNormal.png"/>
+                            <TextBlock Margin="8,0,0,0">Normal</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbPageWidth" Margin="2" Click="tbPageWidth_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PageWidth.png"/>
+                            <TextBlock Margin="8,0,0,0">Page Width</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                </StackPanel>
+            </slControls:GroupBox>
+            <slControls:GroupBox Header="Page Control" Margin="4">
+                <StackPanel Margin="1,3,1,1">
+                    <slControls:StiButton Name="tbFirstPage" Margin="2" Click="tbFirstPage_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PageFirst.png"/>
+                            <TextBlock Margin="8,0,0,0">First Page</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbPreviousPage" Margin="2" Click="tbPreviousPage_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PagePrevious.png"/>
+                            <TextBlock Margin="8,0,0,0">Previous Page</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbNextPage" Margin="2" Click="tbNextPage_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PageNext.png"/>
+                            <TextBlock Margin="8,0,0,0">Next Page</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                    <slControls:StiButton Name="tbLastPage" Margin="2" Click="tbLastPage_Click">
+                        <StackPanel Orientation="Horizontal" Width="120">
+                            <Image Source="/CustomPreview;component/Images/PageLast.png"/>
+                            <TextBlock Margin="8,0,0,0">Last Page</TextBlock>
+                        </StackPanel>
+                    </slControls:StiButton>
+                </StackPanel>
+            </slControls:GroupBox>
+            <slControls:StiButton Name="btRefresh" Margin="6,4,6,4" Click="btRefresh_Click">Refresh</slControls:StiButton>
+        </StackPanel>
+        <viewer:StiSLViewerControl x:Name="PreviewControl" Grid.Column="1" Margin="4"/>
+    </Grid>
+</UserControl>

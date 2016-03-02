@@ -1,0 +1,158 @@
+<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+              xmlns="http://schemas.microsoft.com/client/2007"
+              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid Width="412" Height="256" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <TextBlock Visibility="Visible" Text="Loading..." HorizontalAlignment="Left" FontSize="36" Foreground="#525191" VerticalAlignment="Center" Margin="17,0,0,0"/>
+    <Canvas Width="150" HorizontalAlignment="Right" RenderTransformOrigin="0.5,0.5" Margin="0,0,60,205" VerticalAlignment="Bottom">
+      <Canvas.RenderTransform>
+        <TransformGroup>
+          <ScaleTransform x:Name="MichaelsAnimation" ScaleX="0.9" ScaleY="0.9"/>
+          <SkewTransform AngleX="0" AngleY="0"/>
+          <RotateTransform Angle="-22.225"/>
+          <TranslateTransform X="0" Y="0"/>
+        </TransformGroup>
+      </Canvas.RenderTransform>
+      <Canvas>
+        <Path Opacity="0.0" Fill="#ffffffff" Data=" M 149.922,150.000 L 0.000,150.000 L 0.000,0.000 L 149.922,0.000 L 149.922,150.000 Z"/>
+        <Path Data=" M 0.000,150.000 L 0.000,0.000 L 114.000,0.000 C 114.000,0.000 150.000,0.500 150.000,36.000 C 150.000,71.500 149.922,150.000 149.922,150.000 L 0.000,150.000 Z">
+          <Path.Fill>
+            <LinearGradientBrush MappingMode="Absolute" StartPoint="-5.037,144.965" EndPoint="144.885,-5.035">
+              <LinearGradientBrush.GradientStops>
+                <GradientStop Offset="0.00" Color="#ff6797a6"/>
+                <GradientStop Offset="1.00" Color="#ff3c6c94"/>
+              </LinearGradientBrush.GradientStops>
+              <LinearGradientBrush.Transform>
+                <MatrixTransform Matrix="1.000,0.000,-0.000,-1.000,0.000,150.000" />
+              </LinearGradientBrush.Transform>
+            </LinearGradientBrush>
+          </Path.Fill>
+        </Path>
+        <Path Fill="#ff9ac7de" Data=" M 4.000,146.000 L 4.000,4.000 L 111.979,4.000 C 111.979,4.000 146.078,4.473 146.078,38.080 C 146.078,71.687 146.005,146.000 146.005,146.000 L 4.000,146.000 Z"/>
+        <Path Fill="#ffffffff" Data=" M 91.695,29.000 L 91.695,51.305 L 114.000,51.305 L 114.000,56.000 L 87.000,56.000 L 87.000,29.000 L 91.695,29.000 Z"/>
+        <Path Fill="#ffffffff" Data=" M 64.500,120.000 C 51.521,120.000 41.000,109.479 41.000,96.500 C 41.000,83.521 51.521,73.000 64.500,73.000 C 77.479,73.000 88.000,83.521 88.000,96.500 C 88.000,109.479 77.479,120.000 64.500,120.000 Z M 64.500,68.000 C 48.760,68.000 36.000,80.760 36.000,96.500 C 36.000,112.240 48.760,125.000 64.500,125.000 C 80.240,125.000 93.000,112.240 93.000,96.500 C 93.000,80.760 80.240,68.000 64.500,68.000 Z"/>
+        <Path Fill="#ffffffff" Data=" M 36.000,98.000 L 36.039,28.000 L 93.000,28.000 L 115.039,50.039 L 115.039,125.000 L 63.000,125.000 L 63.000,120.000 L 109.000,120.000 L 110.000,120.000 L 110.000,52.000 L 91.000,33.000 L 41.000,33.000 L 41.000,97.000 L 36.000,98.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data=" M 127.000,29.000 L 23.000,29.000 L 23.000,28.000 L 127.000,28.000 L 127.000,29.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data=" M 115.000,17.000 L 115.000,136.000 L 114.000,136.000 L 114.000,17.000 L 115.000,17.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data=" M 127.000,125.000 L 25.000,125.000 L 25.000,124.000 L 127.000,124.000 L 127.000,125.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data=" M 37.000,17.000 L 37.000,136.000 L 36.000,136.000 L 36.000,17.000 L 37.000,17.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data=" M 65.000,96.000 L 64.000,96.000 L 64.000,95.000 L 65.000,95.000 L 65.000,96.000 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data="F1 M 93.379,123.621 L 92.734,124.266 L 65.328,96.860 L 65.974,96.215 L 93.379,123.621 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data="F1 M 26.512,134.563 L 25.938,133.988 L 63.317,96.608 L 63.893,97.184 L 26.512,134.563 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data="F1 M 63.494,94.209 L 62.861,94.842 L 36.158,68.140 L 36.792,67.506 L 63.494,94.209 Z"/>
+        <Path Opacity="0.5" Fill="#ffffffff" Data="F1 M 66.145,94.848 L 65.500,94.203 L 92.702,67.000 L 93.348,67.645 L 66.145,94.848 Z"/>
+      </Canvas>
+    </Canvas>
+    <Grid Width="412" Height="15" VerticalAlignment="Bottom" Margin="0,0,0,70">
+      <Border BorderBrush="#c8b1b1b1" BorderThickness="1" CornerRadius="2"/>
+      <Border Margin="1">
+        <Border.Background>
+          <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="#c8ececec" Offset="0"/>
+            <GradientStop Color="#c8d7d7d7" Offset="0.5"/>
+            <GradientStop Color="#c8c8c8c8" Offset="0.5"/>
+            <GradientStop Color="#c8c7c7c7" Offset="1"/>
+          </LinearGradientBrush>
+        </Border.Background>
+      </Border>
+      <Border BorderBrush="#dedede" BorderThickness="1,0,1,1" Margin="1"/>
+      <Grid x:Name="overlay" HorizontalAlignment="Left" Width="0" Background="#1ed83e" Margin="1">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition MaxWidth="15"/>
+          <ColumnDefinition Width="0.1*"/>
+          <ColumnDefinition MaxWidth="15"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition/>
+          <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle x:Name="LeftDark" Margin="0,1,0,1" RadiusY="1" RadiusX="1" Grid.RowSpan="2">
+          <Rectangle.Fill>
+            <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+              <GradientStop Color="#0C000000" Offset="0"/>
+              <GradientStop Color="#20000000" Offset="0.3"/>
+              <GradientStop Color="#00000000" Offset="1"/>
+            </LinearGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="RightDark" Grid.Column="2" Margin="0,1,0,1" RadiusY="1" RadiusX="1" Grid.RowSpan="2">
+          <Rectangle.Fill>
+            <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+              <GradientStop Color="#00000000" Offset="0"/>
+              <GradientStop Color="#20000000" Offset="0.7"/>
+              <GradientStop Color="#0C000000" Offset="1"/>
+            </LinearGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="LeftLight" Grid.Row="2">
+          <Rectangle.Fill>
+            <RadialGradientBrush RadiusY="1" RadiusX="1">
+              <GradientStop Color="#60FFFFC4" Offset="0"/>
+              <GradientStop Color="#00FFFFC4" Offset="1"/>
+            </RadialGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="CenterLight" Grid.Column="1" Grid.Row="2">
+          <Rectangle.Fill>
+            <RadialGradientBrush RadiusY="1" RadiusX="1">
+              <GradientStop Color="#60FFFFC4" Offset="0"/>
+              <GradientStop Color="#00FFFFC4" Offset="1"/>
+            </RadialGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="RightLight" Grid.Column="2" Grid.Row="2">
+          <Rectangle.Fill>
+            <RadialGradientBrush RadiusY="1" RadiusX="1">
+              <GradientStop Color="#60FFFFC4" Offset="0"/>
+              <GradientStop Color="#00FFFFC4" Offset="1"/>
+            </RadialGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Border x:Name="Highlight1" Grid.ColumnSpan="3" Grid.RowSpan="2">
+          <Border.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+              <GradientStop Color="#90FFFFFF" Offset="0.5385"/>
+              <GradientStop Color="#00FFFFFF" Offset="0.5385"/>
+            </LinearGradientBrush>
+          </Border.Background>
+        </Border>
+        <Border x:Name="Highlight2" Grid.ColumnSpan="3" Grid.RowSpan="2">
+          <Border.Background>
+            <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+              <GradientStop Color="#80FFFFFF" Offset="0.05"/>
+              <GradientStop Color="#00FFFFFF" Offset="0.25"/>
+            </LinearGradientBrush>
+          </Border.Background>
+        </Border>
+      </Grid>
+      <TextBlock Name="StatusText" HorizontalAlignment="Center" Text="0%" VerticalAlignment="Center"/>
+      <Grid Name="GridAnimation" HorizontalAlignment="Left" Width="0" Height="13" Margin="1">
+        <Rectangle x:Name="PART_GlowRectTop" HorizontalAlignment="Left" Width="100" Height="13">
+          <Rectangle.Fill>
+            <LinearGradientBrush EndPoint="1,0" StartPoint="0,0">
+              <GradientStop Color="#00FFFFFF" Offset="0"/>
+              <GradientStop Color="#82FFFFFF" Offset="0.4"/>
+              <GradientStop Color="#82FFFFFF" Offset="0.6"/>
+              <GradientStop Color="#00FFFFFF" Offset="1"/>
+            </LinearGradientBrush>
+          </Rectangle.Fill>
+          <Rectangle.Triggers>
+            <EventTrigger RoutedEvent="Rectangle.Loaded">
+              <EventTrigger.Actions>
+                <BeginStoryboard>
+                  <Storyboard BeginTime="0" RepeatBehavior="Forever">
+                    <DoubleAnimation Storyboard.TargetName="transform"
+                     Storyboard.TargetProperty="X" From="-100"
+                     To="410" Duration="0:0:4.1"/>
+                  </Storyboard>
+                </BeginStoryboard>
+              </EventTrigger.Actions>
+            </EventTrigger>
+          </Rectangle.Triggers>
+          <Rectangle.RenderTransform>
+            <TranslateTransform x:Name="transform" X="-100"/>
+          </Rectangle.RenderTransform>
+        </Rectangle>
+      </Grid>
+    </Grid>
+  </Grid>
+</Grid>

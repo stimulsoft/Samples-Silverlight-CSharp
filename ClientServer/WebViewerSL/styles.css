@@ -1,0 +1,17 @@
+﻿html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.table-side {
+  width: 6px;
+  height: 6px;
+}
+
+a.link {
+  color: Blue;
+  font-family: Verdana;
+  font-size: 11px;
+}
