@@ -1,1 +1,1 @@
-# Samples-Silverlight-CSharp
+# Samples Silverlight CSharp
