@@ -39,7 +39,7 @@ namespace ViewerLocalization
             StiConfig.LoadLocalization(asm, "ViewerLocalization.Localization.zh-CHT.xml");
             #endregion
 
-            //!!!!
+            // Set Localization
             StiSettings.Set("Localization", "Current", "de");
 
             InitializeComponent();
