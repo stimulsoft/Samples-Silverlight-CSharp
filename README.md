@@ -1,3 +1,9 @@
+## Attention!
+
+This repository is archived because the technology used in the examples is outdated and no longer supported.
+
+--
+
 # C# Silverlight samples
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.Silverlight.
