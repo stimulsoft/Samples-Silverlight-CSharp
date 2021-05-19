@@ -2,7 +2,7 @@
 
 This repository is archived, and the source code of these examples is no longer updated, because the technology used in the examples is outdated and no longer supported.
 
---
+---
 
 # C# Silverlight samples
 
